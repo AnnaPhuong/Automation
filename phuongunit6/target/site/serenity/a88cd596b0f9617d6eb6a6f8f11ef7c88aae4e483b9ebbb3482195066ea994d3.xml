@@ -1,0 +1,16 @@
+<acceptance-test-run title="Looking up the definition of &apos;pear&apos;" name="Looking up the definition of &apos;pear&apos;" description="" steps="3" successful="0" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="10" timestamp="2016-07-22T07:03:50.646+07:00">
+  <user-story id="lookup-a-definition" name="Lookup a definition" path="src/test/resources/features/consult_dictionary/LookupADefinition.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Lookup a definition" type="feature"/>
+  </tags>
+  <test-step result="PENDING" duration="1">
+    <description>Given the user is on the Wikionary home page</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>When the user looks up the definition of the word &apos;pear&apos;</description>
+  </test-step>
+  <test-step result="PENDING" duration="2">
+    <description>Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;</description>
+  </test-step>
+</acceptance-test-run>

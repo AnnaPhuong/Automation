@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.auto.DefinitionTestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 1.572 sec <<< FAILURE! - in cucumber.auto.DefinitionTestSuite
+Given Open google(Scenario: Open google page)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at cucumber.auto.steps.DefinitionOpen.open_google(DefinitionOpen.java:11)
+	at ?.Given Open google(src/test/resources/features/OpenGoogle.feature:6)
+
+Scenario: Open google page  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at cucumber.auto.steps.DefinitionOpen.open_google(DefinitionOpen.java:11)
+	at ?.Given Open google(src/test/resources/features/OpenGoogle.feature:6)
+

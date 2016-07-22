@@ -1,0 +1,16 @@
+<acceptance-test-run title="Looking up the definition of &apos;apple&apos;" name="Looking up the definition of &apos;apple&apos;" description="" steps="3" successful="0" failures="0" skipped="0" ignored="0" pending="3" annotated-result="PENDING" result="PENDING" duration="732" timestamp="2016-07-22T07:03:40.779+07:00">
+  <user-story id="lookup-a-definition" name="Lookup a definition" path="src/test/resources/features/consult_dictionary/LookupADefinition.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Lookup a definition" type="feature"/>
+  </tags>
+  <test-step result="PENDING" duration="1">
+    <description>Given the user is on the Wikionary home page</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>When the user looks up the definition of the word &apos;apple&apos;</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;</description>
+  </test-step>
+</acceptance-test-run>

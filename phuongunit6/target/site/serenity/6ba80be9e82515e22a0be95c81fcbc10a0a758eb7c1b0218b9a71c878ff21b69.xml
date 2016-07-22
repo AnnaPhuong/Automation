@@ -1,0 +1,23 @@
+<acceptance-test-run title="Open google page" name="Open google page" description="" steps="4" successful="0" failures="0" errors="1" skipped="0" ignored="0" pending="3" annotated-result="ERROR" result="ERROR" duration="350" timestamp="2016-07-22T07:06:43.118+07:00">
+  <user-story id="open-google-page" name="Open Google Page" path="src/test/resources/features/OpenGoogle.feature"/>
+  <tags>
+    <tag name="Open Google Page" type="feature"/>
+    <tag name="tag" type="tag"/>
+    <tag name="tag1" type="tag"/>
+  </tags>
+  <test-step result="ERROR" duration="165">
+    <description>Given Open google</description>
+    <error>java.lang.NullPointerException</error>
+    <exception>java.lang.NullPointerException:null&#xd;
+[cucumber.auto.steps.DefinitionOpen.open_google(DefinitionOpen.java:11), ✽.Given Open google(src/test/resources/features/OpenGoogle.feature:6)]</exception>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>When I am input keywork is &quot;hello&quot;</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>And user click search button</description>
+  </test-step>
+  <test-step result="PENDING" duration="0">
+    <description>Then I verify the error message is &quot;Incorrect password. Please try again.&quot;</description>
+  </test-step>
+</acceptance-test-run>

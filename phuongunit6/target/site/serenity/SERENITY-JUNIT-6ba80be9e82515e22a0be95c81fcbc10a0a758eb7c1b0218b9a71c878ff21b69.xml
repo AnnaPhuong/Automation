@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Open Google Page" skipped="0" tests="1" time="0.35" timestamp="2016-07-204 07:06:43"><testcase name="Open google page"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+cucumber.auto.steps.DefinitionOpen.open_google(DefinitionOpen.java:11)&#13;
+✽.Given Open google(src/test/resources/features/OpenGoogle.feature:6)&#13;
+</system-err></testcase></testsuite>

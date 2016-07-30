@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Rediffmail</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<style type="text/css">
+&lt;!--
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+}
+a{
+	color: #0065EA;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Generic Styles */
+.floatL{ float: left; } .floatR{ float: right; } .clear{ clear: both; }
+.alignC{ text-align: center; } .alignL{ text-align: left; } .alignR{ text-align: right; }
+.f11{ font-size: 11px; } .f12{ font-size: 12px; } .f13{ font-size: 13px; } .f14{ font-size: 14px; } .f15{ font-size: 15px; } .f16{ font-size: 16px; }
+.bold{font-weight: bold;} .grey{color: #808080;} .margTop5{margin-top: 5px;} .margTop10{ margin-top: 10px;} .margTop20{ margin-top: 20px; }
+/* Generic styles ends.. */
+
+.uncheck-label{
+	margin-left: 24px;
+	color: #686868;
+}
+.wrapper{
+	width: 948px;
+	margin: 20px auto;
+}
+.content-area{
+	height: 495px;
+	width: 100%;
+}
+.ad-area{
+	width: 640px;
+	height: 500px;
+}
+.advertisement-area{
+	width: 640px;
+	height: 480px;
+	background: #FFFFFF;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.login-area-free{
+	background: none repeat scroll 0 0 #E7E7E7;
+    height: 348px;
+    width: 293px;
+}
+.rediffmail-logo{
+	background-image: url('//im.rediff.com/ajaxprism/pix_1_3/rmailng_logo.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 87px;
+	height: 21px;
+	position: absolute;
+	margin: 15px 0 0 20px;
+}
+.rhs-area{
+	width:292px;
+}
+.login-inner-free{
+	background: none repeat scroll 0 0 #F3F3F3;
+    height: 340px;
+    margin: 4px auto 4px 4px;
+	width: 285px;
+	-moz-box-shadow: inset 0 0 10px #E7E7E7;
+	-webkit-box-shadow: inset 0 0 10px #E7E7E7;
+	box-shadow: inset 0 0 10px #E7E7E7;
+}
+.login-form{
+	padding: 50px 18px 0;
+}
+.login-form input[type="text"]{
+	width: 243px;
+	height: 20px;
+	border: solid 1px #B6B6B6;
+}
+.login-form input[type="password"]{
+	width: 243px;
+	height: 20px;
+	border: solid 1px #B6B6B6;
+}
+.form-label{
+	margin-bottom: 3px;
+}
+.create-new-account{
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 45px;
+    margin-top: 27px;
+    padding: 10px;
+    width: 225px;
+	border: solid 1px #DEDEDE;
+}
+.lock{
+	background-image: url('//im.rediff.com/ajaxprism/pix_1_3/new_indiahomesprite7.png');
+    background-position: -350px 0;
+    height: 14px;
+    width: 10px;
+	margin: 0 10px;
+}
+.get-pro-outer{
+	background: none repeat scroll 0 0 #E7E7E7;
+    height: 137px;
+    margin: 15px 0 0;
+    width: 293px;
+}
+.get-pro-inner{
+	background: none repeat scroll 0 0 #F3F3F3;
+    height: 123px;
+    margin: 4px auto 4px 4px;
+    width: 245px;
+	padding: 6px 20px 0;
+	
+	-moz-box-shadow: inset 0 0 10px #E7E7E7;
+	-webkit-box-shadow: inset 0 0 10px #E7E7E7;
+	box-shadow: inset 0 0 10px #E7E7E7;
+}
+.rmail-pro-logo{
+	background-image: url('//im.rediff.com/ajaxprism/pix_1_3/rmailpro.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 166px;
+	height: 21px;
+}
+.pro-get-yours{
+	background: none repeat scroll 0 0 #FFFFFF;
+    height: 60px;
+	margin-left: -1px;
+    margin-top: 7px;
+    padding: 10px 14px;
+	border: solid 1px #DEDEDE;
+	width: 215px;
+}
+.footer-area{
+	margin-top: 20px;
+	padding-top: 5px;
+	border-top: solid 3px #dbdbdb;
+	height: 30px;
+}
+//--&gt;
+</style>
+
+<script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script>
+eval(function(p,a,c,k,e,r){e=function(c){return(c&lt;a?'':e(parseInt(c/a)))+((c=c%a)&gt;35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('3 9(a){2 b=e.f.u(\';\');2 d=a+"=";w(2 i=0;i&lt;b.4;i++){2 c=b[i];y(c.z(0)==\' \')c=c.g(1,c.4);h(c.A(d)==0)j c.g(d.4,c.4)}j 7}3 5(n,v,x,p,d){2 a=(v==7||v==\'\')?(((k l).m())*8)+o.B(o.C()*8):D(v);e.f=n+"="+a+((x)?"; E="+x:"")+"; F=/; G=.H.I;"}3 q(a){2 b=k l();b.J(b.m()+(-1*K*r*r*8));5(a,"",b)}3 s(){2 a=9(\'6\');2 b="L, M-N-O P:t:t Q";h((a!=7)&amp;&amp;(a!=\'\')){q(\'6\');5(\'6\',a,b)}R{5(\'6\',a,b)}}s();',54,54,'||var|function|length|crtCk|RuW|null|1000|rdCk|||||document|cookie|substring|if||return|new|Date|getTime||Math||delCk|60|chkUVCk|59|split||for||while|charAt|indexOf|round|random|escape|expires|path|domain|rediff|com|setTime|24|Wed|31|Dec|2031|23|GMT|else'.split('|'),0,{}))
+
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035613" });
+(function(){
+	var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	el.parentNode.insertBefore(s, el);
+})();
+  
+function PasswdRemindWin(){
+	window.open("//login.rediff.com/cgi-bin/passwd_remind.cgi?FormName=showlogin","win1","toolbar=no,directories=no,resize=yes,menubar=no,location=no,scrollbars=yes,width=490,height=480,maximize=null,top=70,left=80");
+}
+
+function checkLogin(){
+	var usr = document.loginform.login.value;
+	var empty_string = /^\s*$/;
+	
+	if(empty_string.test(usr)){
+		alert("Please enter a valid user name");
+		document.getElementById("login1").focus();
+		return false;
+	}
+	
+	if(document.loginform.passwd.value == ""){
+	      	alert("Please enter your password");
+			document.loginform.passwd.focus();	
+			return false;
+	}
+	/*var seclogin = document.loginform.seclogin;
+	if(seclogin.checked == true){
+		document.loginform.action = "https://f9mail.rediff.com/cgi-bin/login.cgi";
+	}
+	else{
+		document.loginform.action = "https://f9mail.rediff.com/cgi-bin/login.cgi";
+	}*/
+	
+	return true;
+}
+</script>
+
+<noscript>&lt;img src="//b.scorecardresearch.com/p?c1=2&amp;c2=6035613&amp;cv=2.0&amp;cj=1" /&gt;</noscript>
+</head>
+<body>
+<div class="wrapper">
+	<!-- Header -->
+	<div class="head-wrapper">
+		<div class="floatL">
+			<a href="http://www.rediff.com"><img border="0" src="//im.rediff.com/ajaxprism/pix_1_3/rediff_logo.gif" /></a>
+		</div>
+		<div class="floatR">
+			<a href="http://www.rediff.com">Home</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- Content-->
+	<div class="content-area">
+		<div class="ad-area floatL">
+			<div class="alignC f12">Advertisement</div>
+			<div class="advertisement-area">
+				<iframe width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" src="//im.rediff.com/template/meta/lgnad_new_1.htm"></iframe>
+			</div>
+		</div>
+		<div class="rhs-area floatR">
+			<div class="login-area-free floatR">
+				<div class="login-inner-free">
+					<div class="rediffmail-logo"></div>
+					<form onsubmit="return checkLogin();" method="POST" action="https://mail.rediff.com/cgi-bin/login.cgi" name="loginform">
+						<input type="hidden" value="existing" name="FormName" /> 
+						<input type="hidden" value="on" name="seclogin" />
+						<div class="login-form">
+							<div class="f14 bold form-label">Username</div>
+							<div>
+								<input type="text" onblur="fieldTrack(this);" tabindex="1" style="_width: 243px;" value="" name="login" maxlength="30" id="login1" />
+							</div>
+							
+							<div class="f14 margTop10 form-label">
+								<div class="floatL bold">Password</div>
+								<div class="floatR"><a class="f12" href="https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin">Forgot Password?</a></div>
+								<div class="clear"></div>
+							</div>
+							<div>
+								<input type="password" onblur="fieldTrack(this);" tabindex="2" style="_width: 243px;" value="" name="passwd" id="password" />
+							</div>
+							
+							<div class="margTop10">
+								<div>
+									<label>
+										<input type="checkbox" tabindex="3" value="1" id="remember" name="remember" checked="checked" /> 
+										Keep me signed in
+									</label>
+								</div>
+								<div class="uncheck-label f12">(Uncheck if on a shared computer)</div>
+							</div>
+							
+							<div class="margTop10">
+								<div class="floatL"><input type="submit" tabindex="4" title="Sign in" value="Go" name="proceed" /></div>
+								<div class="floatL f12 margTop5">
+									<div class="floatL lock"></div>
+									<div class="floatL">Secured Login</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div style="*margin-top: 10px;" class="create-new-account f15 alignC bold">
+								Don't have a Rediffmail ID?<br />
+								<a href="//register.rediff.com/register/register.php?FormName=user_details">Create a new account</a>
+							</div>
+						</div>
+						<img border="0" width="1" height="1" alt="" id="fill_metric" src="//indmetric.rediff.com/mail.rediff.com/login-cgi/login?x=filled&amp;rkey=381701" />
+					</form>
+					<iframe width="1" height="1" frameborder="0" style="display:none;" id="metric_iframe" name="metric_iframe" src="//indmetric.rediff.com/www.rediff.com/login-cgi?rkey=807466"></iframe>
+				</div>
+			</div>
+			<div class="get-pro-outer floatR">
+				<div class="get-pro-inner">
+					<div class="rmail-pro-logo"></div>
+					<div class="pro-get-yours alignC">
+						<div class="f15 alignL bold">Own a personalised email ID</div>
+						<div class="alignL f12 grey">e.g. Raj Shah owns raj@shahtrading.in</div>
+						<div class="alignL"><a class="f15 bold" onclick="javascript:location.href='http://track.rediff.com/click?url=___http://businessemail.rediff.com?sc_cid=maltlog___&amp;cmp=maltlog&amp;lnk=maltlog&amp;nsrv1=host'; return false;" href="http://businessemail.rediff.com/">Get yours today</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer-area alignC f12">
+		Copyright © 2016 Rediff.com India Limited. All rights reserved.<br />
+		<a target="_blank" href="http://in.rediff.com/disclaim.htm">Disclaimer</a> | <a target="_blank" href="http://www.rediff.com/w3c/policy.html">Privacy Policy</a>
+	</div>
+</div>
+
+<script language="javascript">
+window.onload = function(){
+	document.getElementById('login1').focus();
+	
+	var querystring = "";
+	var path = "";
+	var domain = "";
+	var Rkey_data = "";
+	var Rkey = Math.floor(Math.random() * 1000000);
+	querystring = window.location.search;
+	path  = window.location.pathname;
+	domain  = window.location.host;
+	var tmp_ref = encodeURIComponent(document.referrer);
+	if((tmp_ref == null) || (tmp_ref.length == 0)){tmp_ref = "";}
+	
+	if (querystring == ""){
+		Rkey_data = "?rkey="+Rkey;
+	}
+	else{
+		Rkey_data = "&amp;rkey="+Rkey;
+	}
+
+	if(tmp_ref != ""){
+		Rkey_data += "&amp;ref="+tmp_ref;
+	}
+	document.getElementById('metric_iframe').src ='//indmetric.rediff.com/www.rediff.com/login-cgi'+Rkey_data; 
+}
+
+function fieldTrack(ob){
+	var Rkey = Math.floor(Math.random() * 1000000);
+	var tracklink = "";
+	if(document.getElementById('fill_metric')){
+		if(ob.value == ""){
+			tracklink = ob.name+"?x=blank&amp;rkey="+Rkey;
+		}else{
+			tracklink = ob.name+"?x=filled&amp;rkey="+Rkey; 
+		}
+		document.getElementById('fill_metric').src = "//indmetric.rediff.com/mail.rediff.com/login-cgi/"+tracklink; 
+	}
+}
+</script>
+
+
+
+</body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="993" height="618"></canvas></html>

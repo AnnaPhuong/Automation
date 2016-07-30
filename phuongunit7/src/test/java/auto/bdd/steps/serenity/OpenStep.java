@@ -24,7 +24,7 @@ public class OpenStep extends ScenarioSteps {
 
 	}
 
-	public void verify_msg_alert(String msg) {
+	public void verify_msg_alert(String msg) throws Exception {
 		String actual = openPage.getMsg();
 		Assert.assertEquals(msg, actual);
 

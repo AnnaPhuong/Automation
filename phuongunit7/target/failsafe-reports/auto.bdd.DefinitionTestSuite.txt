@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: auto.bdd.DefinitionTestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 49.354 sec <<< FAILURE! - in auto.bdd.DefinitionTestSuite
+Then I verify the error message is "Please enter your password"(Scenario: Login with invalid username)  Time elapsed: 0.048 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at auto.bdd.pages.OpenPage.getMsg(OpenPage.java:33)
+	at auto.bdd.steps.serenity.OpenStep.verify_msg_alert(OpenStep.java:28)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7.CGLIB$verify_msg_alert$3(<generated>)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7$$FastClassByCGLIB$$e04dd0be.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7.verify_msg_alert(<generated>)
+	at auto.bdd.steps.DefinitionStep.i_verify_the_error_message_is(DefinitionStep.java:40)
+	at ?.Then I verify the error message is "Please enter your password"(Login.feature:10)
+
+Scenario: Login with invalid username  Time elapsed: 0.048 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at auto.bdd.pages.OpenPage.getMsg(OpenPage.java:33)
+	at auto.bdd.steps.serenity.OpenStep.verify_msg_alert(OpenStep.java:28)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7.CGLIB$verify_msg_alert$3(<generated>)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7$$FastClassByCGLIB$$e04dd0be.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:269)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at auto.bdd.steps.serenity.OpenStep$$EnhancerByCGLIB$$1bb79dc7.verify_msg_alert(<generated>)
+	at auto.bdd.steps.DefinitionStep.i_verify_the_error_message_is(DefinitionStep.java:40)
+	at ?.Then I verify the error message is "Please enter your password"(Login.feature:10)
+

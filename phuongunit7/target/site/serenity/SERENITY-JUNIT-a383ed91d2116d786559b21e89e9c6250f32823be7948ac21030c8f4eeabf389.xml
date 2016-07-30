@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Open Rediff Page" skipped="0" tests="1" time="40.74" timestamp="2016-07-212 03:59:18"><testcase name="Login with invalid username"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+auto.bdd.pages.OpenPage.getMsg(OpenPage.java:33)&#13;
+auto.bdd.steps.serenity.OpenStep.verify_msg_alert(OpenStep.java:28)&#13;
+auto.bdd.steps.DefinitionStep.i_verify_the_error_message_is(DefinitionStep.java:40)&#13;
+✽.Then I verify the error message is "Please enter your password"(Login.feature:10)&#13;
+</system-err></testcase></testsuite>

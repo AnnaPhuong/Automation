@@ -1,0 +1,41 @@
+<acceptance-test-run title="Login with invalid username" name="Login with invalid username" description="" steps="4" successful="3" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="40739" timestamp="2016-07-30T15:59:18.540+07:00" session-id="3e70d631-4611-4f3b-a04c-1bb08b1f9cba">
+  <user-story id="open-rediff-page" name="Open Rediff Page" path="Login.feature"/>
+  <tags>
+    <tag name="Open Rediff Page" type="feature"/>
+    <tag name="tag" type="tag"/>
+    <tag name="tag1" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="32097">
+    <screenshots>
+      <screenshot image="0849076f2c2af74e9a0009e8c6498f69.png"/>
+    </screenshots>
+    <description>Given Open rediff page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3075">
+    <screenshots>
+      <screenshot image="49cf05724f1752de5a53127a19603da0.png"/>
+    </screenshots>
+    <description>When I am input username is &quot;pinkgirl6103&quot;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1405">
+    <screenshots>
+      <screenshot image="49cf05724f1752de5a53127a19603da0.png"/>
+    </screenshots>
+    <description>And user click Signin button</description>
+  </test-step>
+  <test-group name="Then I verify the error message is &quot;Please enter your password&quot;" result="ERROR">
+    <screenshots>
+      <screenshot image="bd4ccba9050c5d51ef5b8a3b7f1ed8d5.png"/>
+    </screenshots>
+    <test-step result="ERROR" duration="3311">
+      <screenshots>
+        <screenshot image="bd4ccba9050c5d51ef5b8a3b7f1ed8d5.png"/>
+        <screenshot image="bd4ccba9050c5d51ef5b8a3b7f1ed8d5.png" source="pagesource1179903284856837077.html.txt"/>
+      </screenshots>
+      <description>Verify msg alert: Please enter your password</description>
+      <error>java.lang.NullPointerException</error>
+      <exception>java.lang.NullPointerException:null&#xd;
+[auto.bdd.pages.OpenPage.getMsg(OpenPage.java:33), auto.bdd.steps.serenity.OpenStep.verify_msg_alert(OpenStep.java:28), auto.bdd.steps.DefinitionStep.i_verify_the_error_message_is(DefinitionStep.java:40)]</exception>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

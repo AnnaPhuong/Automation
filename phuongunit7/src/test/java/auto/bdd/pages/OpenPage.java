@@ -11,33 +11,33 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("https://mail.rediff.com/cgi-bin/login.cgi")
 public class OpenPage extends PageObject {
 
-	@FindBy(id="login1")
+	@FindBy(id = "login1")
 	WebElementFacade inputUsername;
-	
+
 	public void enter_username(String username) {
-	
+
 		inputUsername.type(username);
 	}
 
-	@FindBy(name="proceed")
+	@FindBy(name = "proceed")
 	WebElementFacade clickButton;
+
 	public void click_button_longin() {
 		clickButton.click();
-		
+
 	}
-	
-	
-	@FindBy(name="proceed")
+
 	WebDriver verifyMsg;
-	public String getMsg() {
-	Alert alert= verifyMsg.switchTo().alert();
-	
-	System.out.println(alert.getText());
-	alert.accept();
-	//verifyMsg.switchTo().defaultContent();
-	
-		
-		return null;
+
+	public String getMsg() throws Exception {
+		Alert alert = verifyMsg.switchTo().alert();
+		String alert1 = alert.getText();
+		//System.out.println("Alert text is "+ alert1);
+		//Thread.sleep(2000);
+		//alert.accept();
+
+		return alert1;
+
 	}
 
 }

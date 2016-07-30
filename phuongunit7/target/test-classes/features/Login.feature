@@ -7,4 +7,4 @@ Feature: Open Rediff Page
     Given Open rediff page
      When I am input username is "pinkgirl6103"
       And user click Signin button
-     Then I verify the error message is "Incorrect password. Please try again."
+     Then I verify the error message is "Please enter your password"

@@ -29,12 +29,15 @@ public class DefinitionStep {
 	    
 	}
 	
-	@Then("^I verify the error message is \"([^\"]*)\"$")
+	/*@Then("^I verify the error message is \"([^\"]*)\"$")
 	public void i_verify_the_error_message_is(String msg)  {
 		openStep.verify_msg_alert(msg);
 	   
-	}
+	}*/
 
-	
+	@Then("^I verify the error message is \"([^\"]*)\"$")
+	public void i_verify_the_error_message_is(String msg) throws Exception  {
+		openStep.verify_msg_alert(msg);
+	}
 
 }

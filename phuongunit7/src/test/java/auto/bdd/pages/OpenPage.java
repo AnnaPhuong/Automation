@@ -27,10 +27,10 @@ public class OpenPage extends PageObject {
 
 	}
 
-	WebDriver verifyMsg;
+	WebDriver driver;
 
 	public String getMsg() throws Exception {
-		Alert alert = verifyMsg.switchTo().alert();
+		Alert alert = driver.switchTo().alert();
 		String alert1 = alert.getText();
 		//System.out.println("Alert text is "+ alert1);
 		//Thread.sleep(2000);
